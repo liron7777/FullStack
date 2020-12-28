@@ -1,0 +1,16 @@
+
+.div_block_Make_inline > div{
+    display: inline;
+    border: 1px solid rgb(34, 103, 168) ;
+}
+
+.span_block_Make_clock > span{
+    display: block;
+    border: 1px solid rgb(34, 103, 168) ;
+}
+
+.div_inline > div{
+    display: inline-block;
+    border: 1px solid rgb(34, 103, 168) ;
+    width: 200px;
+}

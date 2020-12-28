@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../Assets/Fonts/Roboto-Light.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+  background: #f0f0f0;
+  color: rgb(122, 122, 122);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: #021e50;
+  letter-spacing: 0.1em;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.lebron_james {
+  background-image: linear-gradient(rgb(0 0 0 / 0%), rgb(1 28 56)),
+    url(http://global.nba.com/nba-apps/static/hero.jpg);
+  width: 100%;
+  height: 440px;
+  color: white;
+  text-align: center;
+  padding-top: 170px;
+  font-size: 40px;
+  letter-spacing: 0.1em;
+}
+
+.row_list:hover,
+.NavLink > a:hover {
+  color: rgb(69 132 230);
+  cursor: pointer;
+}
+
+.delete_item:hover {
+  cursor: pointer;
+  opacity: 40%;
+}
+
+.favorite_list > .MuiButton-containedPrimary {
+  background-color: rgb(8 112 255);
+  border-radius: 0px;
+  margin-left: 90px;
+}
+
+.favorite_list > .MuiButton-containedPrimary:hover {
+  background-color: rgb(8 112 255/85%);
+  color: #b6b8bb;
+}
+
+/* *>.MuiLinearProgress-barColorPrimary{
+  background-color: red;
+} */

@@ -1,0 +1,23 @@
+.transform_div > div{
+    border:1px grey solid;
+    width: 100px;
+    height: 20px;
+    margin : 40px;
+}
+
+.transform_rotate{
+    transform: rotate(10deg);
+}
+
+.transformX{
+    transform: translateX(50px)
+}
+
+.transformY{
+    transform: translateY(25px)
+}
+
+.transform_scale{
+    transform: scale(1.2)
+}
+

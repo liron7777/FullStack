@@ -1,0 +1,13 @@
+create new project in react and node.js-
+youtube
+https://www.youtube.com/watch?v=TTZOoWfGjCo&t=1102s
+site
+https://medium.com/free-code-camp/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0
+
+disply flex-
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Drag and Drop with React react-beautiful-dnd
+https://www.youtube.com/watch?v=cvpK5AtzsgM&list=PLBguFN_KEgLimbYj8UgDmjKjLYalq63FQ&index=5
+https://www.youtube.com/watch?v=Q1PYQPK9TaM
+https://www.youtube.com/watch?v=awRtgpRsdTQ&t=1266s

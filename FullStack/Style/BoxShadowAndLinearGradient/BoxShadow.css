@@ -1,0 +1,28 @@
+.box-shadow > div {
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* ------------------------------------------------ box-shadow --------------------------------------------------- */
+.box-shadow :nth-child(2){
+    box-shadow: 1px 1px 1px 1px rgb(69, 69, 70) ;
+}
+
+.box-shadow :nth-child(4){
+    box-shadow: 5px 1px 1px 1px rgb(69, 69, 70) ;
+}
+
+.box-shadow :nth-child(6){
+    box-shadow: 1px 5px 1px 1px rgb(69, 69, 70) ;
+}
+
+.box-shadow :nth-child(8){
+    box-shadow: 1px 1px 12px 1px rgb(69, 69, 70) ;
+}
+
+.box-shadow :nth-child(10){
+    box-shadow: 1px 1px 1px 4px rgb(69, 69, 70) ;
+}
+

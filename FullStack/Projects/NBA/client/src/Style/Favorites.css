@@ -1,0 +1,46 @@
+.favorite_list {
+  margin-top: 85px;
+}
+
+.favorite_list > ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 32px;
+}
+
+.row_favorite_list {
+  margin: 20px;
+  background: white;
+}
+
+.data_row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_item {
+  width: 220px;
+  height: 170px;
+  margin-bottom: 10px;
+}
+
+.delete_item {
+  width: 25px;
+  height: 25px;
+  margin-left: 200px;
+}
+
+.row_favorite_list {
+  padding: 10px;
+}
+
+.blue_color{
+  color:rgb(69 132 230);
+}
+
+
+
+
+

@@ -1,0 +1,11 @@
+.box-shadow > div , .background_linear-gradient > div , .transfrom > div{
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.background_linear-gradient > div{
+    background: linear-gradient(0deg, rgb(117, 188, 221), rgb(10, 86, 129));
+}

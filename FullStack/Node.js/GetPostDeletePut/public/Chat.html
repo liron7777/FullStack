@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css.css" />
+    <title>Live Chat</title>
+</head>
+<body>
+    <h1>Live Chat</h1>
+    <input type="text" id="name">
+    <input type="text" id="message">
+    <button onclick="send()">SEND</button>
+    <button onclick="delete_message()">DELETE</button>
+    <div class="messages"></div>
+</body>
+
+<script>
+    // let uniqid = require('uniqid')
+    const
+        serverURL = 'http://localhost:8080'
+
+    async function send(){
+        const
+            name = (document.querySelector('#name')).value,
+            message = (document.querySelector('#message')).value,
+            respons = await fetch(`${serverURL}/messages`,{
+            method :'POST',
+            headers:{'Content-Type':'application/json'},
+            body : JSON.stringify({name, message})
+        })
+        print(message)
+    }
+        
+    async function delete_message(){
+        const respons = await fetch(`${serverURL}/messages`, {method :'DELETE'})
+        console.log('response: ', response);
+    }
+
+    async function delete_message_id(id){
+        const respons = await fetch(`${serverURL}/messages/:${id}`,
+        {method :'DELETE'})}
+
+    function print(message_value){
+        const 
+             row_of_message = document.createElement("DIV"),
+             delete_message = document.createElement("BUTTON"),
+             edit_message = document.createElement("BUTTON"),
+             message = document.createElement("P")
+
+        delete_message.innerHTML = "Delete"; 
+        edit_message.innerHTML = "Edit"; 
+        message.innerText = message_value
+
+        delete_message.id = 'delete_message';
+
+        row_of_message.appendChild(message)
+        row_of_message.appendChild(delete_message)
+        row_of_message.appendChild(edit_message)
+
+        document.querySelector(".messages").appendChild(row_of_message); 
+        document.querySelector('#delete_message').addEventListener("click", delete_message_id('1kjqn67lskg6vu72u'))}
+</script>
+</html>

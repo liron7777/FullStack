@@ -1,0 +1,55 @@
+.anomation_parent , .anomation_parent > div{
+    width: 150px;
+    height: 150px;
+}
+
+.anomation_parent{
+    border: 1px solid black;
+    perspective: 500px;
+}
+
+.anomation_child{
+    background: rgb(236, 46, 103);
+    transform: rotateY(50deg);
+}
+
+.anomation_parent:hover .anomation_child{
+    animation: change_color 250ms 5;
+    animation-delay: 1s;
+}
+
+@keyframes change_color{
+    0%{   
+        background: rgb(236, 46, 103);
+    }
+    50%{
+        background: rgb(16, 110, 13);
+    }
+    100%{
+        background: rgb(35, 65, 124);
+    }
+}
+
+.ball{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 200px;
+}
+
+.ball{
+    animation: jump 750ms infinite;
+}
+
+@keyframes jump{
+    from{
+        margin-top: 200px;
+        background: rgb(0, 0, 0);
+    }
+    to{
+        margin-top: 70px;
+        background: rgb(255, 18, 109);
+    }
+}
+

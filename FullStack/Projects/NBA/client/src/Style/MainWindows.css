@@ -1,0 +1,52 @@
+.nba_lists {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 110px; */
+  margin-bottom: 30px;
+}
+
+.items_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 110px;
+}
+
+.row_list {
+  margin: 10px;
+}
+
+.row_list > span:first-child {
+  width: 180px;
+  display: inline-block;
+}
+
+.row_list > span:nth-child(2) {
+  width: 45px;
+  display: inline-block;
+}
+
+.items_list > section {
+  background: rgb(255, 255, 255);
+  margin: 20px;
+}
+
+.data_windows {
+  margin: 20px;
+}
+
+.data_windows > ul {
+  padding-left: 0;
+}
+
+.like {
+  width: 20px;
+  height: 20px;
+  color: brown;
+  margin-bottom: -5px;
+}
+
+.like:hover {
+  content: url("https://img.icons8.com/fluent/48/000000/filled-like.png")
+}
+
+

@@ -1,0 +1,21 @@
+.transition_parent , .transition_parent > div{
+    width: 150px;
+    height: 150px;
+}
+
+.transition_parent{
+    border: 1px solid black;
+    perspective: 500px;
+}
+
+.transition_child{
+    background: rgb(236, 46, 103);
+    transform: rotateY(50deg);
+    transition:transform 700ms linear; 
+}
+
+.transition_parent:hover .transition_child{
+    transform: rotateY(0deg);
+}
+
+
